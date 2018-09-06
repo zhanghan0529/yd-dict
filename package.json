@@ -1,7 +1,8 @@
 {
   "name": "translate-node",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "😊一个基于node.js的中英互译终端小程序",
+  "keywords":["node.js","translate"],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
