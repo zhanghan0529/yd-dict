@@ -40,10 +40,14 @@ axios(options).then(res => {
         console.log('释义:',colors.magenta(transMean)+'\n');
         return
     }
-    let ukPhonetic = basicList['uk-phonetic'].split(';')[0];
-    let usPhonetic = basicList['us-phonetic'].split(';')[0];
-    console.log('英',colors.magenta('['+ukPhonetic+']'),'美',colors.magenta('['+usPhonetic+']')+'\n');
-    console.log('释义:',colors.magenta(transMean)+'\n');
+    if(basicList.explains&&basicList['uk-phonetic']){
+        let ukPhonetic = basicList['uk-phonetic'].split(';')[0];
+        let usPhonetic = basicList['us-phonetic'].split(';')[0];
+        console.log('英',colors.magenta('['+ukPhonetic+']'),'美',colors.magenta('['+usPhonetic+']')+'\n');
+        console.log('释义:',colors.magenta(transMean)+'\n');
+    }else{
+        console.log('释义:',colors.magenta(transMean)+'\n');
+    }
 }).catch(err=>{
     spinner.stop(true)
     console.log('😂  出错了...'+err)
