@@ -1,6 +1,6 @@
 {
   "name": "translate-node",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "😊一个基于node.js的中英互译终端小程序",
   "main": "index.js",
   "scripts": {
