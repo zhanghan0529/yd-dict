@@ -1,0 +1,22 @@
+{
+  "name": "yd-dict",
+  "version": "1.0.0",
+  "description": "😊一个基于node.js的中英互译终端小程序",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhanghan0529/yd-dict.git"
+  },
+  "author": "sfxxx",
+  "license": "ISC",
+  "bin": {
+    "yd": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/zhanghan0529/yd-dict/issues"
+  },
+  "homepage": "https://github.com/zhanghan0529/yd-dict#readme"
+}
